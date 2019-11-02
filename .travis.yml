@@ -5,7 +5,7 @@ node_js:
 
 branches:
   only:
-    - dev
+    - develop
 
 install:
   - npm install
