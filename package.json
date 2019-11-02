@@ -1,0 +1,30 @@
+{
+  "name": "node-server",
+  "version": "1.0.0",
+  "description": "node写的后端逻辑，结合mongo",
+  "main": "./dist/index.js",
+  "scripts": {
+    "build": "npx tsc",
+    "dev": "npx tsc -w",
+    "lint": "npx tslint --project tslint.json",
+    "start": "node dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wuhaohao1234/node-server.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wuhaohao1234/node-server/issues"
+  },
+  "homepage": "https://github.com/wuhaohao1234/node-server#readme",
+  "devDependencies": {
+    "@types/mongodb": "^3.3.8",
+    "@types/node": "^12.12.5",
+    "mongodb": "^3.3.3",
+    "tslint": "^5.20.0",
+    "typescript": "^3.6.4"
+  }
+}
